@@ -31,6 +31,7 @@ RUN addgroup -g 1000 node \
     && mkdir -p /run/nginx
 
 COPY /nginx/vhost.conf /etc/nginx/conf.d/default.conf
+COPY /nginx/html/* /var/www/localhost/htdocs
 
 EXPOSE 80
 
