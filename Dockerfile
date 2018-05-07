@@ -1,5 +1,7 @@
 FROM alpine:3.7
 
+LABEL author="Toni Langbein"
+
 ## Get arguments that can be set by --build-arg (ex. --build-arg NODE=10.0.0)                          ##
 ## Available node version can be found here: https://nodejs.org/dist/                                  ##
 ARG NODE=8.11.1
