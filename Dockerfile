@@ -32,7 +32,8 @@ RUN addgroup -g 1000 node \
     && npm install -g @angular/cli \
     && mkdir -p /run/nginx
 
-COPY /nginx/vhost.conf /etc/nginx/conf.d/default.conf
+COPY /nginx/nginx.conf /etc/nginx/nginx.conf
+COPY /nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY /nginx/html/* /var/www/localhost/htdocs/
 
 EXPOSE 80
