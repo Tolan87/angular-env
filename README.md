@@ -7,6 +7,7 @@
 *Tags based on installed node version*
 
 #### **Quick reference** ####
+----------
 * **Where to get help**  
 	[Docker Community Forums](https://forums.docker.com/), [Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
 
@@ -26,6 +27,7 @@ Toni Langbein
 [Latest release](https://github.com/docker/docker-ce/releases/latest)
 
 #### **How to use** ####
+---------
 ```
 $ docker run --rm -v x:/project/dist/:/var/www/localhost/htdocs:ro -d tolanhd/angular-env
 ```
