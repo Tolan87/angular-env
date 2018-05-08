@@ -17,7 +17,7 @@
 * **Maintained by**  
 Toni Langbein
 
-* **Supported architectures**
+* **Supported architectures**  
 `amd64` `i386` `arm32v6 (untested)` `arm32v7 (untested)` `arm64v8 (untested)`
 
 * **Source of this description**  
