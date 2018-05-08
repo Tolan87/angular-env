@@ -36,8 +36,8 @@ root folder to create a new image that includes the content, like the example be
 
 ** Dockerfile Example **
 >FROM tolanhd/angular-env
-COPY /dist/* /var/www/localhost/htdocs/
-CMD ["nginx"]
+>COPY /dist/* /var/www/localhost/htdocs/
+>CMD ["nginx"]
 
 Run `docker build -t mytag .` in the directory where the `Dockerfile` is located to create a 
 new image with the name *`mytag`* in this example.
