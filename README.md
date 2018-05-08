@@ -1,3 +1,6 @@
+# Supported Tags #
+* [ ```latest``` ```8.11.1``` (*Dockerfile*) ](https://github.com/Tolan87/angular-env/blob/master/Dockerfile)
+
 # Angular Cli Environment
 An docker images with node.js, angular-cli and nginx
 
