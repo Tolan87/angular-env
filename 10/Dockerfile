@@ -4,9 +4,9 @@ LABEL author="Toni Langbein"
 
 ## Get arguments that can be set by --build-arg (ex. --build-arg NODE=10.0.0)                          ##
 ## Available node version can be found here: https://nodejs.org/dist/                                  ##
-## ARG NODE=10.0.0                                                                                     ##
+## ARG NODE=10.1.0                                                                                     ##
 
-ENV NODE_VERSION 10.0.0
+ENV NODE_VERSION 10.1.0
 
 RUN addgroup -g 1000 node \
     && addgroup -S nginx \
